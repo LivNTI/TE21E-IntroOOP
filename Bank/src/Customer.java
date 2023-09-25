@@ -1,9 +1,9 @@
 public class Customer {
     // Attributes
-    String name;
-    long id;
-    int age;
-    int bankID;
+    private String name;
+    private long id;
+    private int age;
+    private int bankID;
 
     // Constructors
     public Customer(String name, long id, int age, int bankID) {
@@ -11,5 +11,11 @@ public class Customer {
         this.id = id;
         this.age = age;
         this.bankID = bankID;
+    }
+
+    // getter
+
+    public String getName() {
+        return this.name;
     }
 }
