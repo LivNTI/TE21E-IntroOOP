@@ -14,7 +14,7 @@ public class Account {
 
     // Methods
     public void transfer(Account transferAcc, int transf) {
-        transferAcc.owner.name = "Barley";
+        transferAcc.owner.setName("Barley");
         amount -= transf;
         transferAcc.amount += transf;
 
