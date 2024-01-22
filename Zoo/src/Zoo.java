@@ -27,7 +27,11 @@ public class Zoo {
 
             try {
                 int val = scan.nextInt();
-                if (val < 1 || val > 2) {
+                if (val == 1) {
+                    ani.printInfo();
+                } else if (val == 2) {
+                    mami.printInfo();
+                } else {
                     throw new Exception("Exception message");
                 }
 
